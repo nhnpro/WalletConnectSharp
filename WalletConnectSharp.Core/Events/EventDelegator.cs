@@ -108,7 +108,7 @@ namespace WalletConnectSharp.Core.Events
             {
                 var providerList = Listeners[topic];
 
-                #IF UNITY_EDITOR
+                #if UNITY_EDITOR
                     Debug.Log("Adding listener to EventProvider list. New count: " + (listProvider.Count + 1));
                 #endif    
 
