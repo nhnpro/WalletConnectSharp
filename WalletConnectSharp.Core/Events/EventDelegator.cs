@@ -14,7 +14,7 @@ namespace WalletConnectSharp.Core.Events
 
         public void ListenForResponse<T>(object id, EventHandler<GenericEvent<T>> callback)
         {
-            ListenFor("response:" + id, callback);
+            ListenFor("response :" + id, callback);
         }
         
         
